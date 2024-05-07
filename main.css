@@ -15,7 +15,11 @@ body {
   color: #fff;
   font-size: 20px;
   padding: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  display: block;
+  width: 10em;
+  border-radius: 2em;
+  margin: 1em auto;
 }
 
 #app .card {
@@ -39,3 +43,11 @@ body {
   font-size: 1em;
   padding: 5px 10px;
 }
+
+[v-cloak]{
+  display: none;
+}
+
+/* button{
+
+} */

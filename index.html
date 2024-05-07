@@ -7,11 +7,11 @@
 </head>
 
 <body>
-  <div id="app">
+  <div id="app" v-cloak>
     <button type="button" class="move" @click="move">
       Move to Bottom
     </button>
-    <div class="card" v-for="person in people" :key="person.name">
+    <div class="card" v-for="person in people" :key="person.name" >
       <h3>{{ person.name }}</h3>
       <p>{{ person.message }}</p>
       <input type="text" />
