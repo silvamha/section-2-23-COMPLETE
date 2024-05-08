@@ -20,7 +20,6 @@ let vm = Vue.createApp({
   methods: {
     move() {
       const first = this.people.shift()
-
       this.people.push(first)
     }
   }
